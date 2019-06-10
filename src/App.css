@@ -1,33 +1,160 @@
 .App {
-  text-align: center;
+    text-align: center;
+
+
+}
+.filterField{
+    background-color: white;
+    margin-left: 6px;
+}
+.hotelList {
+    background: url(https://images.unsplash.com/photo-1523002010469-ea85cb48674b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    padding: 10px;
+    min-height: 96vh;
+}
+.backHomepage{
+    position: absolute;
+    top: 58px;
+    right: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.knockout {
+
+color: #5376B5;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: arial, helvetica;
+
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hotelsTitle {
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.nameTitle {
+    flex: 1;
+    border-style: groove;
+    background-color: black;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageTitle {
+    flex: 1;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.cityTitle {
+    flex: 1;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.brandTitle {
+    flex: 1;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.starTitle {
+    flex: 1;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.editTitle {
+    flex: 0.5;
+    border-style: groove;
+    background-color: black;
+    color: white;
+}
+
+.hotelLine {
+    display: flex;
+}
+
+.name {
+    flex: 1;
+    border-style: groove;
+    color: white;
+}
+
+.image {
+    flex: 1;
+    border-style: groove;
+}
+
+.city {
+    flex: 1;
+    border-style: groove;
+    color: white;
+}
+
+.brand {
+    flex: 1;
+    border-style: groove;
+    color: white;
+}
+
+.star {
+    flex: 1;
+    border-style: groove;
+    color: white;
+}
+
+.edit {
+    flex: 0.5;
+    border-style: groove;
+    color: white;
+    line-height: 100px;
+}
+
+.imageHotel {
+    width: 100px;
+    height: 100px;
+}
+.roomImg{
+    width: 100px;
+    height: 100px;
+}
+.hotelDetailsImg{
+    width: 250px;
+    height: 250px;
+}
+.hotelDetailsPage{
+    display: flex;
+
+}
+.imgDetailsWrapper{flex: 1; }
+.contryDetails{flex: 1; text-align: center;}
+.starDetails{flex: 1;}
+.currencyDetails{flex: 1;}
+.checkInDetails{flex: 1;}
+.checkOutDetails{flex: 1;}
+.numOfRoomDetails{flex: 1;}
+.roomPage{display: flex; flex-wrap: wrap}
+.room{margin-left: 5px; margin-top: 5px;  border-style: groove; padding: 4px; border-radius: 6px;}
+.hotelDetailsTitles{display: flex;margin-top: 5px;
+}
+.imgTitle{flex: 1;}
+.contryTitle{flex: 1;}
+.starTitleDetails{flex: 1;}
+.currencyTitle{flex: 1;}
+.checkInTitle{flex: 1;}
+.checkOutTitle{flex: 1;}
+.numOfRoomTitle{flex: 1;}
+.homePage{display: flex;}
+.theList{flex: 3;}
+.visitedHotels{
+    flex: 1;
+    color: white;
+}
+.visitedTitle{
+    border-style: groove;
+    color: white;
 }
