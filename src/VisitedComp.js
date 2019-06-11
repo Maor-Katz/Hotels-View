@@ -23,7 +23,6 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function VisitedComp(props) {
-    debugger
     const classes = useStyles();
 
     return (

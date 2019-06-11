@@ -18,7 +18,6 @@ export class Hotelslist extends React.Component {
     }
 
     goToHompage = () => {
-        debugger
         this.setState({hotelList: true, hotelDetails: {}})
     }
 
