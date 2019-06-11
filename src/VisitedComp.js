@@ -13,12 +13,10 @@ const useStyles = makeStyles(theme => ({
         width: '100%',
         maxWidth: 360,
         backgroundColor: theme.palette.background.paper,
-
     },
     inline: {
         display: 'inline',
         color: 'white'
-
     },
 }));
 
@@ -36,26 +34,21 @@ function VisitedComp(props) {
                     <ListItemText
                         primary={hotel.name}
                         secondary={
-                            <React.Fragment >
-
+                            <React.Fragment>
                                 <Typography
                                     component="span"
                                     variant="body2"
                                     className={classes.inline}
                                     color="textPrimary">
-                                   <span> {hotel.date}</span>
+                                    <span> {hotel.date}</span>
                                 </Typography>
                             </React.Fragment>
-
-
                         }
                     />
                     <Divider variant="inset" component="li"/>
                 </ListItem>
                 </div>
-            })
-            }
-
+            })}
         </List>
     );
 }

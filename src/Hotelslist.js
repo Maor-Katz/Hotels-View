@@ -135,9 +135,7 @@ export class Hotelslist extends React.Component {
                 </div> :
                 <HotelDetails hotelDetails={hotelDetails} changeHotelsList={this.changeHotelsList}
                               goToHompage={this.goToHompage}/>
-
             }</div>
-
     }
 }
 
